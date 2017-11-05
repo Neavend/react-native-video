@@ -195,7 +195,7 @@ static NSString *const timedMetadata = @"timedMetadata";
                              @"atValue": [NSNumber numberWithLongLong:currentTime.value],
                              @"atTimescale": [NSNumber numberWithInt:currentTime.timescale],
                              @"target": self.reactTag,
-                             @"seekableDuration": [self calculateSeekableDuration],
+                             //@"seekableDuration": [self calculateSeekableDuration],
                             });
    }
 }
